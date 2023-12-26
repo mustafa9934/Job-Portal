@@ -266,3 +266,53 @@ body {
   padding: 1.2rem 0rem;
   color: #fff;
 }
+
+/* auth */
+.auth {
+  width: 100%;
+  height: 110vh;
+  display: flex;
+}
+.auth_img {
+  width: 40%;
+  height: 100%;
+}
+.auth_img > img {
+  width: 100%;
+  height: 100%;
+}
+.auth_form {
+  width: 60%;
+  padding: 4rem 15rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.form_back > a {
+  text-decoration: none;
+  color: #333;
+}
+form {
+  margin-top: 1rem;
+  width: 100%;
+}
+.form_group {
+  width: 100%;
+}
+.form_input {
+  padding: 1rem;
+  width: 100%;
+  margin-top: 2rem;
+  border: 1px solid #bfbfbf;
+  outline: none;
+  border-radius: 5px;
+}
+.form_btn {
+  margin-top: 3rem;
+  padding: 1.5rem 2.4rem;
+  background-color: #04ade6;
+  width: 100%;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
